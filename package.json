@@ -1,0 +1,23 @@
+{
+  "name": "basic-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chawintee/basic-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chawintee/basic-frontend/issues"
+  },
+  "homepage": "https://github.com/chawintee/basic-frontend#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
