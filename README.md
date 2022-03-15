@@ -47,3 +47,17 @@ npm run build
 
 4th
 have bundle.js file
+
+# App.svelte
+use rollup.config.js transplier to bundle.js
+
+crate 
+1. App.svelte 
+2. main.js or use index.js then I choose that create new main.js
+3. rollup.config.js
+import css from 'rollup-plugin-css-only';
+4. npm install rollup-plugin-svelte @rollup/plugin-commonjs @rollup/plugin-node-resolve rollup-plugin-css-only
+4. add script in package.json
+  "scripts": {
+    "build-svelte":"rollup -c",
+  }

@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello HTML</title>
-    <link rel="stylesheet" type="text/css" href="./index.css">
+
+    <!-- bundle -->
+    <!-- <link rel="stylesheet" type="text/css" href="./index.css"> -->
+
+    <!-- svelte -->
+    <link rel="stylesheet" href="./bundleSvelte/bundle.css">
+
 </head>
 <body>
     <h1>Hello World!!!</h1>
@@ -20,7 +26,14 @@
             My nickname is 
             <p id="nickname"> nickName </p>
     </div>
+    <!-- module -->
     <!-- <script src="./index.js" type="module"></script> -->
-    <script src="./bundle.js"></script>
+
+    <!-- bundle -->
+    <!-- <script src="./bundle.js"></script> -->
+
+    <!-- svelte -->
+    <script src="./bundleSvelte/bundle.js"></script>
+
 </body>
 </html>
