@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup nomodule0.js --file bundle.js --format iife", 
+    "build": "rollup nomodule0.js --file bundle.js --format cjs", 
     "serve": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

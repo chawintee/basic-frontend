@@ -39,7 +39,7 @@ npm install rollup
 2nd
 In package.json  add build in scripts 
   "scripts": {
-    "build": "rollup nomodule0.js --file bundle.js --format iife"
+    "build": "rollup [mainfilename].js --file bundle.js --format [format]"
   }
 
 3rd
